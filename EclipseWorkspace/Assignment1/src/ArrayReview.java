@@ -54,13 +54,13 @@ public class ArrayReview {
     getClosestToMean(array2);
   }
   
-  public static double average(double [] inputs){
-    double sum = 0;
+  public static int average(int[] inputs){
+    int sum = 0;
     for (int count = 0; count < inputs.length; count++){
-      double dist = inputs[count];
+      int dist = inputs[count];
       sum += dist;
     }
-    double mean = sum / inputs.length;
+    int mean = sum / inputs.length;
     return mean;
   }
   
