@@ -1,0 +1,30 @@
+
+public class ArrayReview {
+
+	public static void findTwoLargest(int[] array){
+		int firstMax = 0;
+		int secondMax = 0;
+		for (int counter:array){
+			if (array.length < 2){
+				System.out.println("Array must have a size of at least 2");
+			}
+			else if (array.length >= 2){
+				if (firstMax < counter){
+				secondMax = firstMax;
+				firstMax = counter;
+			}else if (secondMax < counter){
+				secondMax = counter;
+			}
+			System.out.println("The Two Largest Numbers in the array are: "+firstMax+", and "+secondMax);
+			}
+		}
+		
+		
+	}
+	
+
+	public static void main(String[] args){
+		int array[] = {5};
+		findTwoLargest(array);
+		}
+}
