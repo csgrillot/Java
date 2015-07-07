@@ -4,9 +4,9 @@ import java.util.Calendar;
 
 public class Person implements Comparable, Cloneable {
 
-	private String firstName;
-	private String lastName;
-	private Date dob = new Date();
+	private static String firstName;
+	private static String lastName;
+	private static Date dob = new Date();
 
 	// Null Constructor
 	Person() {
@@ -47,9 +47,14 @@ public class Person implements Comparable, Cloneable {
 	}
 
 	// Change Last name Method
-	public static String changeLastName(String s) {
-
-		return "";
+	public static void changeLastName(String s) {
+		lastName = s;
+	}
+	
+	public static void printPerson(){
+		System.out.print(firstName + " " + lastName + " was born on ");
+		dob.printdate2();
+		System.out.println();
 	}
 
 	// Override Methods
