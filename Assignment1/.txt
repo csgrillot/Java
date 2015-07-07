@@ -1,1 +1,0 @@
-Student: 2	Average: 77Student: 3	Average: 75Student: 4	Average: 80Student: 5	Average: 75Student: 6	Average: 79Student: 7	Average: 83Student: 8	Average: 78Student: 9	Average: 76Student: 10	Average: 87Student: 11	Average: 85
