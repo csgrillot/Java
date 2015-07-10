@@ -1,1 +1,0 @@
-INDEX VERSION 1.127+/Users/jacobtyo/Programming/Chance/Java/Assignment3/.metadata/.plugins/org.eclipse.jdt.core
